@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appointment Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Book an Appointment</h1>
+
+  <!-- Step 1: Date -->
+  <div class="section">
+    <label>Select Date</label>
+    <input type="date" id="datePicker">
+  </div>
+
+  <!-- Step 2: Time Slots -->
+  <div class="section">
+    <label>Select Time Slot</label>
+    <div id="timeSlots" class="slots"></div>
+  </div>
+
+  <!-- Step 3: User Info -->
+  <div class="section">
+    <label>Your Details</label>
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <input type="tel" id="phone" placeholder="Phone Number">
+  </div>
+
+  <button id="bookBtn">Confirm Booking</button>
+
+  <div id="message"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
