@@ -1,6 +1,3 @@
-Below is the **README.md file content**. You can copy this directly and paste into a file named `README.md`.
-
-```md
 # 📅 Appointment Booking App
 
 A responsive appointment booking web application built using **HTML, CSS, and Vanilla JavaScript**.
@@ -40,15 +37,16 @@ Pure frontend implementation.
 
 ## 📁 Folder Structure
 
-```
-
 appointment-booking/
+
 │
+
 ├── index.html
+
 ├── style.css
+
 └── script.js
 
-```
 
 ---
 
@@ -58,7 +56,7 @@ appointment-booking/
 2. Time slots are generated dynamically.
 3. User selects a time slot.
 4. User enters personal details.
-5. On clicking "Confirm Booking":
+5. On clicking **Confirm Booking**:
    - Fields are validated
    - A confirmation message is displayed
    - The form resets
@@ -123,4 +121,3 @@ This project demonstrates:
 - Clean project structure
 
 Ideal for learning frontend fundamentals or as a base for a full-stack booking system.
-```
